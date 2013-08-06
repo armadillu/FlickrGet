@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                openHelpDrawer = id; 
+                showList = id; 
+                showReadMe = id; 
+                showWebsite = id; 
+                start = id; 
+                stop = id; 
+            }; 
+            CLASS = controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                help = id; 
+                listB = id; 
+                loginField = id; 
+                mainWin = id; 
+                nameField = id; 
+                passwordField = id; 
+                stopB = id; 
+                table = id; 
+                urlField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
